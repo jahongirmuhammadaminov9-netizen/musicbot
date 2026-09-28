@@ -941,7 +941,7 @@ def main():
 
     # Botni ishga tushirish
     print("✅ Bot ishga tushdi! Ctrl+C bilan to'xtatish mumkin.")
-    application.run_polling(allowed_updates=Update.ALL_TYPES, drop_pending_updates=True)
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
     main()
